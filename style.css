@@ -1,0 +1,111 @@
+body{
+    background: whitesmoke;
+    height: 100vh;
+    padding: 1.5rem;
+}
+.main-body{
+    display: flex;
+    flex-direction: column;
+    
+}
+.header-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 1.5rem;
+}
+.menu-list{
+    border: 1px solid white;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+.menu-list:hover{
+    background: #ee7171;
+    cursor: pointer;
+}
+.hero-section{
+    background: #A82424;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    color: white;
+    font-weight:700;
+    font-size: larger;
+
+}
+.hero-section p{
+    max-width: 250px;
+}
+.hero-section .showmore-btn{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.trends-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    max-width: 1000px;
+    gap: 2rem;
+}
+.menu-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.salse-items{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.salse-items p{
+    font-weight: bold;
+}
+.showmore-btn{
+    border: 2px solid #2E0404;
+    color: white;
+    font-weight: 700;
+    background: #2E0404;
+}
+.showmore-btn:hover{
+    border: 2px solid #5c0b0b;
+    background: #5c0b0b;
+}
+.about-section{
+    background: #5C4212;
+    background-image: url("./assets/images/about-bg-img.svg");
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-size: 80% 100%;
+    color: white;
+    padding: 1.5rem;
+    
+}
+.contact-section{
+    background: #EBACB7;
+  /*   display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem; */
+} 
+/* .contact-section .contact-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+} */
+.footer{
+    background: black;
+    color: white;
+    padding: 1.5rem;
+}
